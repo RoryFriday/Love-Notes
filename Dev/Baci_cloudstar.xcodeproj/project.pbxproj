@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* LoveNoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* LoveNoteAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* LoveNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* LoveNoteViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* LoveNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* LoveNoteViewController.m */; };
+		988B924E10C26A6600199F8A /* LoveMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 988B924D10C26A6600199F8A /* LoveMessages.m */; };
+		C732ABD410C65D53003B20D7 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = C732ABD310C65D53003B20D7 /* star.png */; };
+		C732ABE310C662E0003B20D7 /* stars-cut1.png in Resources */ = {isa = PBXBuildFile; fileRef = C732ABE110C662E0003B20D7 /* stars-cut1.png */; };
+		C732ABE410C662E0003B20D7 /* stars-cut2.png in Resources */ = {isa = PBXBuildFile; fileRef = C732ABE210C662E0003B20D7 /* stars-cut2.png */; };
+		C744083410BF9E710074E48C /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C744083310BF9E710074E48C /* app-icon.png */; };
+		C744088710BFAD710074E48C /* arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = C744088510BFAD710074E48C /* arrow_left.png */; };
+		C744088810BFAD710074E48C /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = C744088610BFAD710074E48C /* arrow_right.png */; };
+		C744088B10BFAD860074E48C /* background_app.png in Resources */ = {isa = PBXBuildFile; fileRef = C744088910BFAD860074E48C /* background_app.png */; };
+		C744088C10BFAD860074E48C /* background_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = C744088A10BFAD860074E48C /* background_splash.png */; };
+		C744088E10BFADB00074E48C /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = C744088D10BFADB00074E48C /* note.png */; };
+		C7604BED10FAD5FD003DF273 /* EmailTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7604BEC10FAD5FD003DF273 /* EmailTemplate.m */; };
+		C776CEA910CF4D3300326322 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C776CEA810CF4D3300326322 /* CustomButton.m */; };
+		C7BDF7AB10C3BBA6007A1332 /* button_email.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BDF7AA10C3BBA6007A1332 /* button_email.png */; };
+		C7BDF7D610C3C409007A1332 /* SplashController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BDF7D410C3C409007A1332 /* SplashController.m */; };
+		C7BDF7D710C3C409007A1332 /* SplashController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7BDF7D510C3C409007A1332 /* SplashController.xib */; };
+		C7BDFB8D10C508BE007A1332 /* cloud3.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BDFB8C10C508BE007A1332 /* cloud3.png */; };
+		C7E4F79610BE191D00AD5732 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E4F79510BE191D00AD5732 /* MessageUI.framework */; };
+		C7E97ECF10CCECB100C2B690 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E97ECE10CCECB100C2B690 /* AudioToolbox.framework */; };
+		C7F5345010CC9731009F87A9 /* starTwinkle.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F5344F10CC9731009F87A9 /* starTwinkle.m */; };
+		C7F5345C10CC9C26009F87A9 /* twinkle-star1.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F5345B10CC9C26009F87A9 /* twinkle-star1.png */; };
+		C7F534C810CCA69B009F87A9 /* twinkle-star2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F534C610CCA69B009F87A9 /* twinkle-star2.png */; };
+		C7F534C910CCA69B009F87A9 /* twinkle-star3.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F534C710CCA69B009F87A9 /* twinkle-star3.png */; };
+		C7F534EF10CCA926009F87A9 /* starTwinkleContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F534EE10CCA926009F87A9 /* starTwinkleContainer.m */; };
+		C7F5352310CCB63D009F87A9 /* star-glow.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F5352210CCB63D009F87A9 /* star-glow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* LoveNoteAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoveNoteAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* LoveNoteAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoveNoteAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Baci_cloudstar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baci_cloudstar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* LoveNoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoveNoteViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* LoveNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoveNoteViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* LoveNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoveNoteViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Baci_cloudstar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baci_cloudstar_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Baci_cloudstar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Baci_cloudstar-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		988B924C10C26A6600199F8A /* LoveMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoveMessages.h; sourceTree = "<group>"; };
+		988B924D10C26A6600199F8A /* LoveMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoveMessages.m; sourceTree = "<group>"; };
+		C732ABD310C65D53003B20D7 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		C732ABE110C662E0003B20D7 /* stars-cut1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stars-cut1.png"; sourceTree = "<group>"; };
+		C732ABE210C662E0003B20D7 /* stars-cut2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stars-cut2.png"; sourceTree = "<group>"; };
+		C744083310BF9E710074E48C /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+		C744088510BFAD710074E48C /* arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_left.png; sourceTree = "<group>"; };
+		C744088610BFAD710074E48C /* arrow_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_right.png; sourceTree = "<group>"; };
+		C744088910BFAD860074E48C /* background_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_app.png; sourceTree = "<group>"; };
+		C744088A10BFAD860074E48C /* background_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_splash.png; sourceTree = "<group>"; };
+		C744088D10BFADB00074E48C /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		C7604BEB10FAD5FD003DF273 /* EmailTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailTemplate.h; sourceTree = "<group>"; };
+		C7604BEC10FAD5FD003DF273 /* EmailTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailTemplate.m; sourceTree = "<group>"; };
+		C776CEA710CF4D3300326322 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		C776CEA810CF4D3300326322 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		C7BDF7AA10C3BBA6007A1332 /* button_email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_email.png; sourceTree = "<group>"; };
+		C7BDF7D310C3C409007A1332 /* SplashController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashController.h; sourceTree = "<group>"; };
+		C7BDF7D410C3C409007A1332 /* SplashController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashController.m; sourceTree = "<group>"; };
+		C7BDF7D510C3C409007A1332 /* SplashController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SplashController.xib; path = Classes/SplashController.xib; sourceTree = "<group>"; };
+		C7BDFB8C10C508BE007A1332 /* cloud3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud3.png; sourceTree = "<group>"; };
+		C7E4F79510BE191D00AD5732 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C7E97ECE10CCECB100C2B690 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C7F5344E10CC9731009F87A9 /* starTwinkle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = starTwinkle.h; sourceTree = "<group>"; };
+		C7F5344F10CC9731009F87A9 /* starTwinkle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = starTwinkle.m; sourceTree = "<group>"; };
+		C7F5345B10CC9C26009F87A9 /* twinkle-star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twinkle-star1.png"; sourceTree = "<group>"; };
+		C7F534C610CCA69B009F87A9 /* twinkle-star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twinkle-star2.png"; sourceTree = "<group>"; };
+		C7F534C710CCA69B009F87A9 /* twinkle-star3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twinkle-star3.png"; sourceTree = "<group>"; };
+		C7F534ED10CCA926009F87A9 /* starTwinkleContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = starTwinkleContainer.h; sourceTree = "<group>"; };
+		C7F534EE10CCA926009F87A9 /* starTwinkleContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = starTwinkleContainer.m; sourceTree = "<group>"; };
+		C7F5352210CCB63D009F87A9 /* star-glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-glow.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				C7E4F79610BE191D00AD5732 /* MessageUI.framework in Frameworks */,
+				C7E97ECF10CCECB100C2B690 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C7F5344D10CC96F5009F87A9 /* Sprites */,
+				C7BDF92710C4AABD007A1332 /* Custom Buttons */,
+				1D3623240D0F684500981E51 /* LoveNoteAppDelegate.h */,
+				1D3623250D0F684500981E51 /* LoveNoteAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* LoveNoteViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* LoveNoteViewController.m */,
+				988B924C10C26A6600199F8A /* LoveMessages.h */,
+				988B924D10C26A6600199F8A /* LoveMessages.m */,
+				C7BDF7D310C3C409007A1332 /* SplashController.h */,
+				C7BDF7D410C3C409007A1332 /* SplashController.m */,
+				C7604BEB10FAD5FD003DF273 /* EmailTemplate.h */,
+				C7604BEC10FAD5FD003DF273 /* EmailTemplate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Baci_cloudstar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Baci_cloudstar_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7F5361110CCE31D009F87A9 /* sounds */,
+				C7BDF92B10C4AB26007A1332 /* Images */,
+				C7BDF7D510C3C409007A1332 /* SplashController.xib */,
+				C744083310BF9E710074E48C /* app-icon.png */,
+				2899E5210DE3E06400AC0155 /* LoveNoteViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Baci_cloudstar-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7E97ECE10CCECB100C2B690 /* AudioToolbox.framework */,
+				C7E4F79510BE191D00AD5732 /* MessageUI.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7BDF92710C4AABD007A1332 /* Custom Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C776CEA710CF4D3300326322 /* CustomButton.h */,
+				C776CEA810CF4D3300326322 /* CustomButton.m */,
+			);
+			name = "Custom Buttons";
+			sourceTree = "<group>";
+		};
+		C7BDF92B10C4AB26007A1332 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C7F5352210CCB63D009F87A9 /* star-glow.png */,
+				C7F534C610CCA69B009F87A9 /* twinkle-star2.png */,
+				C7F534C710CCA69B009F87A9 /* twinkle-star3.png */,
+				C7F5345B10CC9C26009F87A9 /* twinkle-star1.png */,
+				C732ABE110C662E0003B20D7 /* stars-cut1.png */,
+				C732ABE210C662E0003B20D7 /* stars-cut2.png */,
+				C732ABD310C65D53003B20D7 /* star.png */,
+				C7BDFB8C10C508BE007A1332 /* cloud3.png */,
+				C7BDF7AA10C3BBA6007A1332 /* button_email.png */,
+				C744088D10BFADB00074E48C /* note.png */,
+				C744088910BFAD860074E48C /* background_app.png */,
+				C744088A10BFAD860074E48C /* background_splash.png */,
+				C744088510BFAD710074E48C /* arrow_left.png */,
+				C744088610BFAD710074E48C /* arrow_right.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C7F5344D10CC96F5009F87A9 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				C7F5344E10CC9731009F87A9 /* starTwinkle.h */,
+				C7F5344F10CC9731009F87A9 /* starTwinkle.m */,
+				C7F534ED10CCA926009F87A9 /* starTwinkleContainer.h */,
+				C7F534EE10CCA926009F87A9 /* starTwinkleContainer.m */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		C7F5361110CCE31D009F87A9 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Baci_cloudstar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Baci_cloudstar" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Baci_cloudstar;
+			productName = Baci_cloudstar;
+			productReference = 1D6058910D05DD3D006BFB54 /* Baci_cloudstar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Baci_cloudstar" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Baci_cloudstar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* LoveNoteViewController.xib in Resources */,
+				C744083410BF9E710074E48C /* app-icon.png in Resources */,
+				C744088710BFAD710074E48C /* arrow_left.png in Resources */,
+				C744088810BFAD710074E48C /* arrow_right.png in Resources */,
+				C744088B10BFAD860074E48C /* background_app.png in Resources */,
+				C744088C10BFAD860074E48C /* background_splash.png in Resources */,
+				C744088E10BFADB00074E48C /* note.png in Resources */,
+				C7BDF7AB10C3BBA6007A1332 /* button_email.png in Resources */,
+				C7BDF7D710C3C409007A1332 /* SplashController.xib in Resources */,
+				C7BDFB8D10C508BE007A1332 /* cloud3.png in Resources */,
+				C732ABD410C65D53003B20D7 /* star.png in Resources */,
+				C732ABE310C662E0003B20D7 /* stars-cut1.png in Resources */,
+				C732ABE410C662E0003B20D7 /* stars-cut2.png in Resources */,
+				C7F5345C10CC9C26009F87A9 /* twinkle-star1.png in Resources */,
+				C7F534C810CCA69B009F87A9 /* twinkle-star2.png in Resources */,
+				C7F534C910CCA69B009F87A9 /* twinkle-star3.png in Resources */,
+				C7F5352310CCB63D009F87A9 /* star-glow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* LoveNoteAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* LoveNoteViewController.m in Sources */,
+				988B924E10C26A6600199F8A /* LoveMessages.m in Sources */,
+				C7BDF7D610C3C409007A1332 /* SplashController.m in Sources */,
+				C7F5345010CC9731009F87A9 /* starTwinkle.m in Sources */,
+				C7F534EF10CCA926009F87A9 /* starTwinkleContainer.m in Sources */,
+				C776CEA910CF4D3300326322 /* CustomButton.m in Sources */,
+				C7604BED10FAD5FD003DF273 /* EmailTemplate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Baci_cloudstar_Prefix.pch;
+				INFOPLIST_FILE = "Baci_cloudstar-Info.plist";
+				PRODUCT_NAME = Baci_cloudstar;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Baci_cloudstar_Prefix.pch;
+				INFOPLIST_FILE = "Baci_cloudstar-Info.plist";
+				PRODUCT_NAME = Baci_cloudstar;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+		C7F535FB10CCDBB0009F87A9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Distribution;
+		};
+		C7F535FC10CCDBB0009F87A9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Baci_cloudstar_Prefix.pch;
+				INFOPLIST_FILE = "Baci_cloudstar-Info.plist";
+				PRODUCT_NAME = Baci_cloudstar;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Baci_cloudstar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				C7F535FC10CCDBB0009F87A9 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Baci_cloudstar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				C7F535FB10CCDBB0009F87A9 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

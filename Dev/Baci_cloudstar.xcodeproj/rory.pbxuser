@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* LoveNoteAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {853, 588}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 460}";
+		};
+	};
+	1D3623250D0F684500981E51 /* LoveNoteAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {853, 588}}";
+			sepNavSelRange = "{873, 0}";
+			sepNavVisRange = "{0, 873}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Baci_cloudstar */ = {
+		activeExec = 0;
+		executables = (
+			98FEA4AB10C0A86C001A694D /* Baci01 */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* LoveNoteViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {853, 630}}";
+			sepNavSelRange = "{623, 0}";
+			sepNavVisRange = "{0, 1108}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* LoveNoteViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 8890}}";
+			sepNavSelRange = "{13289, 0}";
+			sepNavVisRange = "{14986, 1297}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 98FEA4AB10C0A86C001A694D /* Baci01 */;
+		activeSDKPreference = iphoneos3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Baci_cloudstar */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Baci_cloudstar */,
+		);
+		breakpoints = (
+			988B92BA10C27DBC00199F8A /* Baci01ViewController.m:327 */,
+			988B92C310C27E8C00199F8A /* Baci01ViewController.m:115 */,
+			988B937C10C2B81E00199F8A /* LoveMessages.m:17 */,
+		);
+		codeSenseManager = 98FEA4C110C0A889001A694D /* Code sense */;
+		executables = (
+			98FEA4AB10C0A86C001A694D /* Baci01 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					564,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					675,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 281452027;
+			PBXWorkspaceStateSaveDate = 281452027;
+		};
+		perUserProjectItems = {
+			988B927A10C27D2D00199F8A /* PBXTextBookmark */ = 988B927A10C27D2D00199F8A /* PBXTextBookmark */;
+			988B927C10C27D2D00199F8A /* PBXTextBookmark */ = 988B927C10C27D2D00199F8A /* PBXTextBookmark */;
+			988B928410C27D2D00199F8A /* PBXTextBookmark */ = 988B928410C27D2D00199F8A /* PBXTextBookmark */;
+			988B935910C286F600199F8A /* PBXTextBookmark */ = 988B935910C286F600199F8A /* PBXTextBookmark */;
+			98AF2BBC10C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BBC10C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BBD10C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BBD10C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BBE10C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BBE10C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BBF10C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BBF10C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BC010C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BC010C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BC110C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BC110C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BC210C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BC210C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BC310C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BC310C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BC410C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BC410C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BC510C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BC510C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BC610C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BC610C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BC710C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BC710C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BC810C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BC810C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BC910C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BC910C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BCA10C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BCA10C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BCB10C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BCB10C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BCC10C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BCC10C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BCD10C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BCD10C6B3CE00A1E881 /* PBXTextBookmark */;
+			98AF2BCE10C6B3CE00A1E881 /* PBXTextBookmark */ = 98AF2BCE10C6B3CE00A1E881 /* PBXTextBookmark */;
+			98FEA4B910C0A889001A694D /* PBXTextBookmark */ = 98FEA4B910C0A889001A694D /* PBXTextBookmark */;
+			98FEA4C610C0A9E7001A694D /* PBXTextBookmark */ = 98FEA4C610C0A9E7001A694D /* PBXTextBookmark */;
+		};
+		sourceControlManager = 98FEA4C010C0A889001A694D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	988B924C10C26A6600199F8A /* LoveMessages.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {853, 588}}";
+			sepNavSelRange = "{305, 0}";
+			sepNavVisRange = "{0, 528}";
+		};
+	};
+	988B924D10C26A6600199F8A /* LoveMessages.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {832, 1582}}";
+			sepNavSelRange = "{265, 0}";
+			sepNavVisRange = "{164, 1038}";
+		};
+	};
+	988B927A10C27D2D00199F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LoveNoteAppDelegate.m */;
+		name = "Baci01AppDelegate.m: 32";
+		rLen = 0;
+		rLoc = 873;
+		rType = 0;
+		vrLen = 733;
+		vrLoc = 140;
+	};
+	988B927C10C27D2D00199F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 988B924C10C26A6600199F8A /* LoveMessages.h */;
+		name = "LoveMessages.h: 13";
+		rLen = 0;
+		rLoc = 212;
+		rType = 0;
+		vrLen = 222;
+		vrLoc = 0;
+	};
+	988B928410C27D2D00199F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 988B924D10C26A6600199F8A /* LoveMessages.m */;
+		name = "LoveMessages.m: 10";
+		rLen = 0;
+		rLoc = 164;
+		rType = 0;
+		vrLen = 201;
+		vrLoc = 0;
+	};
+	988B92B810C27DBC00199F8A /* Baci01ViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Baci01ViewController.m;
+		path = "/Users/rory/Vivid Development/iPhone/Baci_latest/Classes/Baci01ViewController.m";
+		sourceTree = "<group>";
+	};
+	988B92BA10C27DBC00199F8A /* Baci01ViewController.m:327 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 988B92B810C27DBC00199F8A /* Baci01ViewController.m */;
+		functionName = "-showNextMessage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 327;
+		modificationTime = 281457502.724304;
+		state = 0;
+	};
+	988B92C310C27E8C00199F8A /* Baci01ViewController.m:115 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 988B92B810C27DBC00199F8A /* Baci01ViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 115;
+		modificationTime = 281457502.741101;
+		state = 0;
+	};
+	988B935910C286F600199F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LoveNoteAppDelegate.h */;
+		name = "Baci01AppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 460;
+		vrLoc = 0;
+	};
+	988B937C10C2B81E00199F8A /* LoveMessages.m:17 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 988B924D10C26A6600199F8A /* LoveMessages.m */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 17;
+		location = Baci_cloudstar;
+		modificationTime = 281457502.559129;
+		state = 1;
+	};
+	98AF2BBC10C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* LoveNoteViewController.h */;
+		name = "LoveNoteViewController.h: 26";
+		rLen = 0;
+		rLoc = 623;
+		rType = 0;
+		vrLen = 1108;
+		vrLoc = 0;
+	};
+	98AF2BBD10C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 988B924C10C26A6600199F8A /* LoveMessages.h */;
+		name = "LoveMessages.h: 18";
+		rLen = 0;
+		rLoc = 305;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	98AF2BBE10C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 988B924D10C26A6600199F8A /* LoveMessages.m */;
+		name = "LoveMessages.m: 14";
+		rLen = 0;
+		rLoc = 232;
+		rType = 0;
+		vrLen = 1588;
+		vrLoc = 3848;
+	};
+	98AF2BBF10C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LoveNoteAppDelegate.h */;
+		name = "LoveNoteAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 460;
+		vrLoc = 0;
+	};
+	98AF2BC010C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LoveNoteAppDelegate.m */;
+		name = "LoveNoteAppDelegate.m: 40";
+		rLen = 0;
+		rLoc = 873;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 0;
+	};
+	98AF2BC110C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* LoveNoteViewController.m */;
+		name = "LoveNoteViewController.m: 455";
+		rLen = 0;
+		rLoc = 13289;
+		rType = 0;
+		vrLen = 1651;
+		vrLoc = 562;
+	};
+	98AF2BC210C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LoveNoteAppDelegate.m */;
+		name = "LoveNoteAppDelegate.m: 40";
+		rLen = 0;
+		rLoc = 873;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 0;
+	};
+	98AF2BC310C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* LoveNoteViewController.h */;
+		name = "LoveNoteViewController.h: 23";
+		rLen = 0;
+		rLoc = 558;
+		rType = 0;
+		vrLen = 1112;
+		vrLoc = 0;
+	};
+	98AF2BC410C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* LoveNoteViewController.m */;
+		name = "LoveNoteViewController.m: 16";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 1473;
+		vrLoc = 2211;
+	};
+	98AF2BC510C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 988B924C10C26A6600199F8A /* LoveMessages.h */;
+		name = "LoveMessages.h: 18";
+		rLen = 0;
+		rLoc = 305;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	98AF2BC610C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 988B924D10C26A6600199F8A /* LoveMessages.m */;
+		name = "LoveMessages.m: 14";
+		rLen = 0;
+		rLoc = 232;
+		rType = 0;
+		vrLen = 897;
+		vrLoc = 4606;
+	};
+	98AF2BC710C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* LoveNoteViewController.m */;
+		name = "LoveNoteViewController.m: 16";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 1485;
+		vrLoc = 2104;
+	};
+	98AF2BC810C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* LoveNoteViewController.h */;
+		name = "LoveNoteViewController.h: 26";
+		rLen = 0;
+		rLoc = 623;
+		rType = 0;
+		vrLen = 1108;
+		vrLoc = 0;
+	};
+	98AF2BC910C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* LoveNoteViewController.m */;
+		name = "LoveNoteViewController.m: 455";
+		rLen = 0;
+		rLoc = 13289;
+		rType = 0;
+		vrLen = 1651;
+		vrLoc = 562;
+	};
+	98AF2BCA10C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 988B924C10C26A6600199F8A /* LoveMessages.h */;
+		name = "LoveMessages.h: 18";
+		rLen = 0;
+		rLoc = 305;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	98AF2BCB10C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 988B924D10C26A6600199F8A /* LoveMessages.m */;
+		name = "LoveMessages.m: 14";
+		rLen = 0;
+		rLoc = 232;
+		rType = 0;
+		vrLen = 1588;
+		vrLoc = 3848;
+	};
+	98AF2BCC10C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LoveNoteAppDelegate.h */;
+		name = "LoveNoteAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 460;
+		vrLoc = 0;
+	};
+	98AF2BCD10C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LoveNoteAppDelegate.m */;
+		name = "LoveNoteAppDelegate.m: 40";
+		rLen = 0;
+		rLoc = 873;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 0;
+	};
+	98AF2BCE10C6B3CE00A1E881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* LoveNoteViewController.m */;
+		name = "LoveNoteViewController.m: 455";
+		rLen = 0;
+		rLoc = 13289;
+		rType = 0;
+		vrLen = 1297;
+		vrLoc = 14986;
+	};
+	98FEA4AB10C0A86C001A694D /* Baci01 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Baci01;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	98FEA4B910C0A889001A694D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* LoveNoteViewController.m */;
+		name = "Baci01ViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 755;
+		vrLoc = 0;
+	};
+	98FEA4C010C0A889001A694D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	98FEA4C110C0A889001A694D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	98FEA4C610C0A9E7001A694D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* LoveNoteViewController.h */;
+		name = "Baci01ViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 679;
+		vrLoc = 84;
+	};
+}
